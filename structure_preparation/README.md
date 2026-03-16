@@ -9,6 +9,6 @@ alkyl chains, and lipid bilayer components.
 * [remove_clashing_lipids_mdanalysis.ipynb](remove_clashing_lipids_mdanalysis.ipynb) Identifies lipid residues (DMPC, DMTAP) that are closer than 2.5 Å to DNA atoms
 and removes them using MDAnalysis. The cleaned structure is written to a new GRO file.
 
-* Calculates the estimated number of lipids required to build the DNA nanodisc
+* [estimate_nanodisc_lipid_composition.ipynb](estimate_nanodisc_lipid_composition.ipynb) Calculates the estimated number of lipids required to build the DNA nanodisc
 based on DNA length, geometry, and effective lipid area per lipid (APL).
 Outputs the expected number of DMPC and DMTAP molecules.
