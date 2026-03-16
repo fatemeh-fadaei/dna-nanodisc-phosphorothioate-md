@@ -7,5 +7,6 @@ Reads Temperature.xvg, Pressure.xvg, and Density.xvg and generates plots and bas
 PyMOL script that selects modified DNA residues and neighboring backbone atoms
 and exports each residue as a MOL2 file for subsequent chirality verification.
 
-* [check_chirality.ipynb](check_chirality.ipynb)
-Uses RDKit to verify the chirality of extracted residues.
+* [check_chirality_modified_residues.ipynb](check_chirality_modified_residues.ipynb)
+Reads MOL2 files extracted with PyMOL and checks stereochemistry
+of modified phosphorothioate residues using RDKit and MDAnalysis.
