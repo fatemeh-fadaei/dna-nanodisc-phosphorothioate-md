@@ -1,6 +1,6 @@
 # DNA Nanodisc Phosphorothioate MD
 
-This repository contains scripts used for **structure preparation and molecular dynamics analysis** of alkyl-phosphorothioate modified DNA nanodiscs interacting with lipid membranes.
+This repository contains scripts used for structure preparation and molecular dynamics analysis of alkyl-phosphorothioate modified DNA nanodiscs interacting with lipid membranes.
 
 The scripts were developed for the study:
 
