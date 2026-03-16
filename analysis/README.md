@@ -11,6 +11,12 @@ and exports each residue as a MOL2 file for subsequent chirality verification.
 Reads MOL2 files extracted with PyMOL and checks stereochemistry
 of modified phosphorothioate residues using RDKit and MDAnalysis.
 
+* [gmx_pairdist_alkyl_lipid_distance.sh](gmx_pairdist_alkyl_lipid_distance.sh)
+Bash script that generates GROMACS selection files and runs gmx pairdist
+to calculate distances between alkyl-chain carbon atoms (C1L–C7L)
+and lipid tail atoms in DMPC/DMTAP membranes.
+Outputs XVG files for subsequent analysis.
+
 * [analyze_alkyl_chain_lipid_distance.ipynb](analyze_alkyl_chain_lipid_distance.ipynb)
 Reads gmx pairdist (`.xvg`) files for multiple alkyl-chain carbon atoms,
 computes the mean minimum distance to lipid tails, and compares S and R
