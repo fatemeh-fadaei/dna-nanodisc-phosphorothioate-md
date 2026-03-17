@@ -18,4 +18,5 @@ Identifies complementary DNA base pairs using N1/N3 atoms and generates
 distance restraints for GROMACS simulations. The script creates topology
 entries that enforce base-pair distances during the simulation.
 
+* [dna-sequence-extractor-md.ipynb](dna-sequence-extractor-md.ipynb)
 Extract DNA Sequence (including modified bases) from GROMACS .gro files using MDAnalysis
